@@ -31,7 +31,7 @@ module.exports = {
       textColor: '#000000',
       isCloseable: true,
     },
-    image: 'img/iota-wiki.png',
+    image: 'img/logo.svg',
     algolia: {
       appId: 'YTLE56KAO4',
       apiKey: '75358d60d302f7f93f630d63128abb03',
@@ -64,21 +64,21 @@ module.exports = {
       {
         title: 'Mask Detection system using Python',
         image: 'img/mask_detection.png',
-        link: 'python/mask-detection/',
+        link: 'learn/python/mask-detection',
         description:
           'Learn how to build a mask detection system on IoT using Python and Docker.',
       },
       {
         title: 'Clone Hackernews using NodeJS',
         image: 'img/hackernewss.png',
-        link: 'nodejs/clone-hackernews',
+        link: 'learn/nodejs/clone-hackernews',
         description:
           'Learn how to clone hackernews using NodeJS and Docker.',
       },
       {
         title: 'Building Todo-list app using Python',
         image: 'img/build.svg',
-        link: 'python/todo-list-app',
+        link: 'learn/python/todo-list-app',
         description:
           'Build a todo-list app using Python and Docker Desktop.',
       },
@@ -138,7 +138,7 @@ module.exports = {
                 },
                 {
                   label: 'Build using NodeJS',
-                  sublabel: 'IOTA node written in Rust',
+                  sublabel: 'Sample app written in Rust',
                   to: 'bee/welcome',
                   icon: '\ue900',
                   activeBaseRegex: '^/bee/.*',
@@ -152,7 +152,7 @@ module.exports = {
                 },
                 {
                   label: 'Build using Java',
-                  sublabel: 'IOTA permanode',
+                  sublabel: 'Sample app built using Java',
                   to: 'chronicle.rs/welcome',
                   icon: '\ue90c',
                   activeBaseRegex: '^/chronicle.rs/.*',
@@ -164,14 +164,14 @@ module.exports = {
               items: [
                 {
                   label: 'Banking',
-                  sublabel: 'Decentralizing IOTA',
+                  sublabel: 'Build Real-time Banking app',
                   to: 'IOTA-2.0-Research-Specifications/Preface',
                   icon: '\ue906',
                   activeBaseRegex: 'IOTA-2.0-Research-Specifications/.*',
                 },
                 {
                   label: 'Retails',
-                  sublabel: 'IOTA 2.0 node',
+                  sublabel: 'Build Ordershop using Docker Desktop ',
                   to: 'goshimmer/welcome',
                   icon: '\ue903',
                   activeBaseRegex: '^/goshimmer/.*',
@@ -325,10 +325,10 @@ module.exports = {
       ],
       logo: {
         alt: 'IOTA Logo',
-        src: 'img/iota_logo.svg',
-        href: 'https://www.iota.org',
+        src: 'img/logo.svg',
+        href: 'https://showcase.docker.com',
       },
-      copyright: `© ${new Date().getFullYear()} IOTA Wiki. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Docker, Inc. Built with Docusaurus.`,
     },
     socials: [
       {
